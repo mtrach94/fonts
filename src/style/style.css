@@ -1,0 +1,74 @@
+*,  
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: pt_sans;
+}
+
+h1 {
+    font-family: francoisone;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 120px;
+}
+
+h2 {
+    font-family: francoisone;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 120px;
+}
+
+.chapter {
+    font-family: farro;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    position: absolute;
+    text-transform: none
+}
+
+.language {
+    font-family: tourney;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    padding: 29px 50px 0 120px;
+}
+
+.navigation {
+    font-family: staatliches;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding: 26px 0;
+}
+
+.logo-holder{
+   margin-left: auto;
+   padding: 16px 120px;
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.text {
+    padding: 0 120px;
+}
+
+mark {
+    background-color: grey;
+}
